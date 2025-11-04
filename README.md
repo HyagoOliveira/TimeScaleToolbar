@@ -9,9 +9,11 @@
 
 Adds a slider to the main toolbar to quickly change `Time.TimeScale`.
 
-Configure it through: Edit > Project Settings > ActionCode > TimeScale ToolBar
+[Time Scale](/Docs~/TimeScale.png)
 
-Any changes made to the timeScale from the game's logic will be prioritized over the toolbar unless the Forced TimeScale Override toggle is checked.
+Configure it through: Edit > Project Settings > ActionCode > TimeScale ToolBar.
+
+Any changes made to the `Time.timeScale` from the game's logic will be prioritized over the toolbar unless the **Forced TimeScale** Override toggle is checked.
 
 ### Original Code
 
@@ -33,7 +35,7 @@ You will need a **Git client** installed on your computer with the Path variable
 - You can also manually modify you `Packages/manifest.json` file and add this line inside `dependencies` attribute: 
 
 ```json
-"com.actioncode.[PackageName]":"https://github.com/HyagoOliveira/TimeScaleToolbar.git"
+"com.actioncode.time-scale-toolbar":"https://github.com/HyagoOliveira/TimeScaleToolbar.git"
 ```
 
 ---
