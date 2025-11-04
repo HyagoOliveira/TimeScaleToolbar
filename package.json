@@ -1,22 +1,22 @@
 {
-  "name": "com.actioncode.[packagename]",
-  "displayName": "ActionCode-[PackageName]",
+  "name": "com.actioncode.time-scale-toolbar",
+  "displayName": "ActionCode-Time Scale Toolbar",
   "version": "0.1.0",
   "unity": "6000.1",
-  "description": "This package contains [...].",
+  "description": "This package contains a Slider to change the TimeScale the to the main toolbar.",
   "keywords": [
-    "",
-    ""
+    "Time",
+    "Slider"
   ],
   "dependencies": {},
   "license": "MIT",
-  "homepage": "https://github.com/HyagoOliveira/[PACKAGE]#readme",
+  "homepage": "https://github.com/HyagoOliveira/TimeScaleToolbar#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyagoOliveira/[PACKAGE].git"
+    "url": "https://github.com/HyagoOliveira/TimeScaleToolbar.git"
   },
-  "documentationUrl": "https://github.com/HyagoOliveira/[PACKAGE]#readme",
-  "changelogUrl": "https://github.com/HyagoOliveira/[PACKAGE]/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://github.com/HyagoOliveira/TimeScaleToolbar#readme",
+  "changelogUrl": "https://github.com/HyagoOliveira/TimeScaleToolbar/blob/main/CHANGELOG.md",
   "author": {
     "name": "Hyago Oliveira",
     "email": "hyagogow@gmail.com"
