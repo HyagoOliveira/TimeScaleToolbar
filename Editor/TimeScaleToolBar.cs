@@ -158,15 +158,16 @@ namespace ActionCode.TimeScaleToolbar.Editor
 
             if (Time.timeScale != timeScale)
             {
-                if (forcedOverride)
-                    Time.timeScale = timeScale;
-                else
-                    timeScale = Time.timeScale;
+                if (forcedOverride) Time.timeScale = timeScale;
+                else timeScale = Time.timeScale;
             }
 
+            const float snapInterval = 0.2F;
+            var newTimeScale = GUILayout.HorizontalSlider(timeScale, 0f, maxScale, GUILayout.Width(_sliderWidth));
+            var hasNewValue = newTimeScale != timeScale;
+            if (hasNewValue) newTimeScale = Mathf.Round(newTimeScale / snapInterval) * snapInterval;
 
-
-            timeScale = GUILayout.HorizontalSlider(timeScale, 0f, maxScale, GUILayout.Width(_sliderWidth));
+            timeScale = newTimeScale;
 
             GUILayout.Space(4);
             GUILayout.Label(timeScale.ToString("F2"), GUILayout.Width(45));
