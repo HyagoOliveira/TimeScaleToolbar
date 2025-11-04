@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.1.0] - 2025-01-01
+## [1.0.0] - 2025-11-04
 ### Added
 - Snaps TimeScale by 0.2
 - Legacy code
@@ -17,5 +17,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - gitignore
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/TimeScaleToolbar/compare/0.1.0...main
-[0.1.0]: https://github.com/HyagoOliveira/TimeScaleToolbar/tree/0.1.0/
+[Unreleased]: https://github.com/HyagoOliveira/TimeScaleToolbar/compare/1.0.0...main
+[1.0.0]: https://github.com/HyagoOliveira/TimeScaleToolbar/tree/1.0.0/
