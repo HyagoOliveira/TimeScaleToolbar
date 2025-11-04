@@ -9,7 +9,7 @@
 
 Adds a slider to the main toolbar to quickly change `Time.TimeScale`.
 
-[Time Scale](/Docs~/TimeScale.png)
+![Time Scale](/Docs~/TimeScale.png)
 
 Configure it through: Edit > Project Settings > ActionCode > TimeScale ToolBar.
 
