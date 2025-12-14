@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Removed
+- TimeScaleToolbar
+- ToolbarCallback
+- ToolbarExtender
+
 ## [1.0.0] - 2025-11-04
 ### Added
 - Snaps TimeScale by 0.2
