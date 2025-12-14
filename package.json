@@ -2,13 +2,12 @@
   "name": "com.actioncode.time-scale-toolbar",
   "displayName": "ActionCode-Time Scale Toolbar",
   "version": "1.0.0",
-  "unity": "6000.1",
+  "unity": "6000.3",
   "description": "This package contains a Slider to change the TimeScale the to the main toolbar.",
   "keywords": [
     "Time",
     "Slider"
   ],
-  "dependencies": {},
   "license": "MIT",
   "homepage": "https://github.com/HyagoOliveira/TimeScaleToolbar#readme",
   "repository": {

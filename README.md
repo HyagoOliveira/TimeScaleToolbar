@@ -1,7 +1,7 @@
 # TimeScale Toolbar
 
 * Adds a Slider to change the TimeScale the to the main toolbar.
-* Unity minimum version: **6000.1**
+* Unity minimum version: **6000.3**
 * Current version: **1.0.0**
 * License: **MIT**
 
