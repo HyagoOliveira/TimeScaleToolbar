@@ -11,13 +11,15 @@ Adds a slider to the main toolbar to quickly change `Time.TimeScale`.
 
 ![Time Scale](/Docs~/TimeScale.png)
 
-Configure it through: Edit > Project Settings > ActionCode > TimeScale ToolBar.
+Show it by right clicking in the Toolbar and select Action Code > TimeScale.
 
-Any changes made to the `Time.timeScale` from the game's logic will be prioritized over the toolbar unless the **Forced TimeScale** Override toggle is checked.
+![Enable TimeScale Toolbar](/Docs~/EnableTimeScaleToolbar.png)
 
-### Original Code
+In runtime, set the Time Scale by sliding the Toolbar.
 
-Original asset created by [bl4st](https://assetstore.unity.com/packages/tools/utilities/timescale-toolbar-291564)
+![Sliging TimeScale Toolbar](/Docs~/SlidingTimeScale.gif)
+
+You can also double click on it and set a precise value.
 
 ## Installation
 
